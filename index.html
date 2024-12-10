@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complex Number Converter</title>
+    <link rel="stylesheet" href="complex.css"> <!-- Link to complex CSS -->
+</head>
+<body>
+    <div class="container">
+        <h1>Complex Number Calculator</h1>
+        <div class="input-section">
+            <label for="inputType">Choose Input Type:</label>
+            <select id="inputType">
+                <option value="algebraic">Algebraic (a + bi)</option>
+                <option value="polar">Polar (r, θ): θ in terms of π</option>
+                <option value="euler">Euler (re^(iθ)): θ in terms of π</option>
+            </select>
+            <input type="text" id="complexInput" placeholder="Enter complex number">
+            <button id="calculateButton">Calculate</button>
+        </div>
+        <div class="output-section">
+            <h2>Output:</h2>
+            <pre id="output"></pre>
+        </div>
+        <label for="inputType">Choose Input Type:</label>
+            <select id="operationType">
+                <option value="add">+</option>
+                <option value="substract">-</option>
+                <option value="multiply">x</option>
+                <option value="divide">÷</option>
+            </select>
+            <input type="text" id="z1" placeholder="Enter first complex number">
+            <input type="text" id="z2" placeholder="Enter second complex number">
+
+            <button id="OperationButton">Operate</button>
+        
+            <div class="output-section">
+            <h2>Operation Result:</h2>
+            <pre id="OperationResults"></pre>
+        </div>
+
+        
+        <input type="text" id="z power complex number" placeholder="Enter complex number">
+        <input type="number" id="power" placeholder="the power">
+        <button id="PowerButton">calculate</button>
+
+        <div class="output-section">
+        <h2>Operation Result:</h2>
+        <pre id="PowerResults"></pre>
+        </div>
+
+    </div>
+    <audio id="buttonSound" src="click-sound.mp3"></audio>
+    <script src="complex JS.js"></script> <!-- Link to complex JS -->
+</body>
+</html>
