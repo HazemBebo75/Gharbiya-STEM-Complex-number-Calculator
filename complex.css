@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('complex\ background.webp'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    border: 2px solid #007acc;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #007acc;
+}
+
+.input-section {
+    margin-bottom: 20px;
+}
+
+input, select {
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #007acc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007acc;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #005f99;
+}
+
+.output-section {
+    border-top: 1px solid #007acc;
+    padding-top: 10px;
+    font-family: 'Times New Roman', Times, serif; /* Set font to Times New Roman */
+    font-size: 20px; /* Set a readable font size */
+    color: black; /* Set text color to black */
+    font-weight: normal; /* Ensure no bold */
+    font-style: normal; /* Ensure no italic */
+    text-align: center; /* Center the text horizontally */
+}
